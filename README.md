@@ -1,4 +1,5 @@
 # AngularMaterialTabRouter
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d42fac20-3290-497a-8b1a-6a829b3eec20/deploy-status)](https://app.netlify.com/sites/angular-material-tab-router/deploys)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 

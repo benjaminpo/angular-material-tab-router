@@ -5,16 +5,24 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { Componenet1Component } from './componenet1/componenet1.component';
+import { Componenet2Component } from './componenet2/componenet2.component';
+import { Componenet3Component } from './componenet3/componenet3.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Componenet1Component,
+    Componenet2Component,
+    Componenet3Component
   ],
   imports: [
     BrowserModule,
     MatToolbarModule,
     MatTabsModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
